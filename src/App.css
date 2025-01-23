@@ -1,0 +1,112 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: skyblue;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 800px; 
+  box-sizing: border-box;
+}
+
+h2 {
+  text-align: center;
+  color: green;
+}
+
+.input-group, .button-group, .result-section, .bmi-chart, .saved-results {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #555555;
+}
+
+input, select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input:focus, select:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.reset-button {
+  background-color: #f44336;
+}
+
+.reset-button:hover {
+  background-color: #d32f2f;
+}
+
+.error-message {
+  color: red;
+  font-weight: bold;
+  text-align: center;
+}
+
+.result-section p {
+  text-align: center;
+  font-size: 18px;
+}
+
+.bmi-chart h3, .saved-results h3 {
+  text-align: center;
+  color: #333333;
+}
+
+.bmi-chart ul, .saved-results ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.bmi-chart li, .saved-results li {
+  background-color: #f4f4f4;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+.saved-results p {
+  margin: 0;
+}
+
+.saved-results button {
+  margin-top: 10px;
+  background-color: #e0e0e0;
+  color: #333333;
+}
+
+.saved-results button:hover {
+  background-color: #bdbdbd;
+}
